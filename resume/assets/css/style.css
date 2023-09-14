@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: lavender;
+}
+.main-heading{
+    color: blueviolet;
+    font-size: 5.8vw;
+}
+.sub-title{
+    font-size: 18px;
+}
+.Sub-heading h2 {
+    font-size: 28px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 1.5em;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    position: relative;
+    color: blueviolet;
+  }
+  .Sub-heading h2:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 5px;
+    width: 55px;
+    margin-left: 10px;
+    background-color: blueviolet;
+  }
+  .Sub-heading h2:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 2px;
+    height: 1px;
+    width: 95%;
+    margin-left: 10px;
+    max-width: 255px;
+    background-color: blueviolet;
+  }
